@@ -1,4 +1,3 @@
-/* Оголошення змінних кольорів */
 :root {
     --primary-color: #212121;
     --secondary-color: #757575;
@@ -6,10 +5,16 @@
     --bg-color: #F5F5F5;
     --white-color: #FFFFFF;
 }
-
-/* Загальні стилі */
+.blue-text{
+    color:var(--accent-color);
+    font-family: "Raleway", sans-serif;
+}
+.black-text{
+    color:var(--primary-color);
+    font-family: "Raleway", sans-serif;
+}
 body {
-    font-family: Arial, sans-serif;
+    font-family: "Roboto";
     color: var(--primary-color);
     background-color: var(--bg-color);
     margin: 0;
@@ -49,4 +54,12 @@ footer {
     color: var(--white-color);
     text-align: center;
     padding: 20px;
+}
+.img{
+    margin-left: 5px;
+    margin-right: 20px;
+    width: 370px;
+    height: 294px;
+    top: 1058px;
+    left: 1015px;
 }
