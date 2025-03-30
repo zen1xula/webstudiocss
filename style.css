@@ -74,7 +74,6 @@ p {
   letter-spacing: 3%;
   text-align: center;
   color: #ffffff;
-  padding-top: 200px;
 }
 .gallery-title {
   font-family: "roboto", sans-serif;
@@ -99,8 +98,16 @@ p {
   padding-bottom: 50px;
 }
 .hero-section {
-  font-family: "roboto", sans-serif;
+  font-family: "Roboto", sans-serif;
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 60px;
+  letter-spacing: 6%;
   background-color: #2f303a;
+  text-align: center;
+  padding-top: 200px;
+  padding-bottom: 200px;
+  text-transform: uppercase;
 }
 
 .features-section {
@@ -135,30 +142,31 @@ p {
   display: flex;
   justify-content: space-between;
 }
-.nav-menu{
+.nav-menu {
   display: flex;
-  justify-content: space-between;
+  align-items: center;
+
+  margin-top: 27px;
 }
 .nav-links{
   display: flex;
   justify-content: space-between;
-  gap: 50px;
+  gap: 30px;
   padding-bottom: 32px;
   padding-top: 32px;
-  
+  margin: 0;
+  padding: 0;
 }
 .contact-links{
   display: flex;
   justify-content: space-between;
-  gap: 50px;
-  padding-top: 32px;
-  padding-left: 93px;
+  gap: 20px;
+
 }
 .features-list{
   display: flex;
   justify-content: space-between;
   gap: 30px;
-  padding: 94px 215px 118px;
 }
 .gallery-list{
   display: flex;
@@ -249,7 +257,6 @@ nav {
   justify-content: center;
   background-color: #2196f3;
   color: #ffffff;
-  margin: 30px 692px 200px;
   width: 216px;
   height: 50px;
 }
@@ -258,16 +265,6 @@ nav {
   display: flex;
   flex-direction: column;
   gap: 9px;
-}
-.secondary-button{
-  width: 103px;
-  height: 38px;
-  border: #2196f3;
-}
-.secondary-button:hover,
-.secondary-button:focus{
-  color: #ffffff;
-  background-color: #2196f3;
 }
 .footer {
   background-color: #2F303A;
@@ -302,4 +299,10 @@ nav {
 .footer-email:hover,
 .footer-phone:hover {
   color: #2196f3;
+}
+.header-wrap {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 0;
 }
