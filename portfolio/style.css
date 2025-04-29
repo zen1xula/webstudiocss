@@ -40,7 +40,6 @@ h3 {
   font-family: "Roboto", sans-serif;
   font-weight: 700;
   font-size: 14px;
-  line-height: 7.14;
   letter-spacing: 3%;
   color: #212121;
 }
@@ -242,8 +241,7 @@ p {
 .phone-link:focus {
   color: #2196f3;
 }
-header {
-}
+
 main {
   font-family: "Roboto", sans-serif;
 }
@@ -340,4 +338,7 @@ nav {
 }
 .project-type {
   margin-bottom: 20px;
+}
+.project-item:hover {
+  background-color: #eeeeee;
 }
