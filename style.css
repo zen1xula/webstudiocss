@@ -114,6 +114,11 @@ p {
   padding-bottom: 200px;
   text-transform: uppercase;
   position: relative;
+  background: linear-gradient(
+    90deg,
+    rgba(0, 0, 0, 0.1) 100%,
+    rgba(0, 0, 0, 0.1) 100%
+  );
 }
 
 .hero-section::before {
