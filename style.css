@@ -135,7 +135,7 @@ p {
 }
 
 .hero-content {
-  background-image: url("path/to/your/cars-image.png"); /* Путь к изображению с машинами */
+  background-image: url("path/to/your/cars-image.png");
   background-size: cover;
   background-position: center;
   position: relative;
