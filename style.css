@@ -54,7 +54,6 @@ h4 {
   font-family: "Roboto", sans-serif;
   font-weight: 400;
   font-size: 16px;
-  line-height: 6.25;
   letter-spacing: 3%;
   color: #757575;
 }
@@ -247,8 +246,11 @@ p {
   background-position: center;
   margin-bottom: 30px;
 }
-.features-list h3 {
+.team-members h3 {
   margin-bottom: 10px;
+}
+.team-members h4 {
+  margin-bottom: 30px;
 }
 .gallery-list {
   display: flex;
@@ -259,7 +261,6 @@ p {
   border-radius: 66px;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 2px 2px rgba(0, 0, 0, 0.2),
     0px 2px 4px rgba(0, 0, 0, 0.15);
-  padding: 30px 0;
   margin-bottom: 30px;
   border-bottom-right-radius: 4px;
   border-bottom-left-radius: 4px;
