@@ -8,6 +8,35 @@ body {
   margin: 0 auto;
 }
 
+.contact-links {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+.email-link,
+.phone-link {
+  display: flex;
+  align-items: center;
+  color: #757575;
+  text-decoration: none;
+  font-size: 14px;
+  font-family: "Roboto", sans-serif;
+}
+.envelope-icon {
+  width: 16px;
+  height: 16px;
+  margin-right: 10px;
+  fill: #757575;
+}
+.smartphone {
+  width: 10px;
+  height: 16px;
+  margin-right: 10px;
+  fill: #757575;
+}
 .main-logo {
   font-family: "Raleway", sans-serif;
   font-weight: 700;
