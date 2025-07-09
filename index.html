@@ -55,7 +55,55 @@
       <section class="hero-section">
         <div class="container hero-content">
           <h1 class="hero-title">Ефективні рішення для<br />вашого бізнесу</h1>
-          <button class="primary-button" type="button">Замовити послугу</button>
+          <button class="primary-button" type="button" data-modal-open>
+            Замовити послугу
+          </button>
+          <div class="backdrop is-hidden no-scroll" data-modal>
+            <div class="modal">
+              <button class="close" data-modal-close>
+                <svg class="modal-close">
+                  <use href="./image/symbol-defs.svg#icon-close-1"></use>
+                </svg>
+              </button>
+              <h3 class="modal-text">Залиште свої дані, ми вам передзвонимо</h3>
+              <form action="">
+                <label class="modal-label">
+                  <p class="modal-label-name">Ім'я</p>
+                  <svg class="modal-icon1">
+                    <use href="./image/symbol-defs.svg#icon-user"></use>
+                  </svg>
+                  <input type="name" class="modal-label-input" />
+                </label>
+                <label class="modal-label">
+                  <p class="modal-label-name">Телефон</p>
+                  <svg class="modal-icon2">
+                    <use href="./image/symbol-defs.svg#icon-telephone"></use>
+                  </svg>
+                  <input type="name" class="modal-label-input" />
+                </label>
+                <label class="modal-label">
+                  <p class="modal-label-name">Пошта</p>
+                  <svg class="modal-icon3">
+                    <use href="./image/symbol-defs.svg#icon-email"></use>
+                  </svg>
+                  <input type="name" class="modal-label-input" />
+                </label>
+                <label class="modal-label">
+                  <p class="modal-label-name">Коментар</p>
+                  <textarea
+                    placeholder="Введіть текст"
+                    class="modal-label-comment"
+                  ></textarea>
+                </label>
+                <label class="checkbox-label">
+                  <input type="checkbox" class="checkbox-input" />
+                  Погоджуюся з розсилкою та приймаю
+                  <a href="#" class="checkbox-link">Умови договору</a>
+                </label>
+                <button class="modal-send">Відправити</button>
+              </form>
+            </div>
+          </div>
         </div>
       </section>
 
@@ -312,18 +360,15 @@
           <a class="footer-brand" href="./index.html"><span>Web</span>Studio</a>
           <ul class="footer-contacts">
             <li>
-              <a class="footer-address" href="#" target="_blank"
-                >м. Київ, пр-т Лесі Українки, 26</a
-              >
+              <a class="footer-address" href="#">
+                м. Київ, пр-т Лесі Українки, 26
+              </a>
             </li>
-            <li>
-              <a class="footer-email" href="#">info@devstudio.com</a>
-            </li>
-            <li>
-              <a class="footer-phone" href="#">+38 096 111 11 11</a>
-            </li>
+            <li><a class="footer-email" href="#">info@devstudio.com</a></li>
+            <li><a class="footer-phone" href="#">+38 096 111 11 11</a></li>
           </ul>
         </div>
+
         <div class="footer-socials">
           <h3 class="footer-socials-title">приєднуйтесь</h3>
           <ul class="footer-socials-list">
@@ -357,7 +402,36 @@
             </li>
           </ul>
         </div>
+
+        <div class="footer-form">
+          <p class="mailing-label-name">Підпишіться на розсилку</p>
+
+          <div class="mailing-input-group">
+            <input
+              type="email"
+              class="mailing-label-input"
+              placeholder="E-mail"
+            />
+            <button class="mailing-button" type="submit">
+              Підписатися
+              <svg
+                class="mailing-icon"
+                width="24"
+                height="24"
+                viewBox="0 0 24 24"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M24 0L0 13.5L7.66994 16.3407L19.5 5.25002L10.5017 17.3896L10.509 17.3923L10.5 17.3896V24.0001L14.8013 18.982L20.2501 21.0001L24 0Z"
+                  fill="white"
+                />
+              </svg>
+            </button>
+          </div>
+        </div>
       </div>
     </footer>
   </body>
+  <script src="./modal.js"></script>
 </html>
