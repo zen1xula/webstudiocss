@@ -180,7 +180,23 @@ p {
   width: 370px;
   height: 294px;
 }
-
+.gallery-text {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #2f303acc;
+  width: 370px;
+  height: 70px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 100%;
+  text-align: center;
+  color: #ffffff;
+  position: relative;
+  bottom: 73px;
+  padding: 0;
+}
 .team-img {
   width: 270px;
   height: 260px;
